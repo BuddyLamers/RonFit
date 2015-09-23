@@ -2881,9 +2881,9 @@
 /* Intro */
 
 	#intro {
-		background: #000000;
-		/*background: url("images/overlay.png"), url("../../images/intro.jpg");*/
-		background-size: 256px 256px, cover;
+		/*background: #000000;*/
+		background: url("images/ron/main.png"), url("../../images/ron/main.png");
+		background-size: 256px 256px, contain;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
