@@ -2258,7 +2258,8 @@
 /* Box */
 
 	.box {
-		background: #262626;
+		/*background: #262626;*/
+		background-color: rgba(38,38,38,0.7);
 		color: #fff;
 		padding: 2em;
 	}
@@ -3352,7 +3353,9 @@
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
 					/*background-color: rgba(255, 255, 255, 0.9);*/
-					background-color: #262626;
+					/*background-color: #262626;*/
+					background-color: rgba(38,38,38,0.5);
+					/*background-color: blue;*/
 					color: #fff;
 				}
 
