@@ -1845,6 +1845,7 @@
 		font-size: 2.25em;
 		letter-spacing: -2px;
 		line-height: 1.25em;
+		text-shadow: -2px 2px black;
 	}
 
 	strong, b {
@@ -2882,7 +2883,7 @@
 
 	#intro {
 		/*background: #000000;*/
-		background: url("images/ron/main.png"), url("../../images/ron/main.png");
+		background: url("images/ron/shirtless_front.jpeg"), url("../../images/ron/shirtless_front.jpeg");
 		background-size: 256px 256px, contain;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2893,20 +2894,21 @@
 
 	#one {
 		background: #000;
-		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
-		background-size: 256px 256px, cover;
+		background: url("images/ron/shirtless_back.jpeg"), url("../../images/ron/shirtless_back.jpeg");
+		background-size: 256px 256px, contain;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
 	}
 
-/* Two */
+ /*Two */
 
 	#two {
-		background: #000;
-		/*background: url("images/ron/image2.jpg"), url("../../images/ron/image2.jpg");*/
-		background-size: 256px 256px, cover;
+		background: url("images/ron/fully_clothed.jpeg"), url("../../images/ron/fully_clothed.jpeg");
+		background-size: 256px 256px, contain;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
 	}
 
 /* Work */
