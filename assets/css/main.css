@@ -2887,7 +2887,7 @@
 		background: url("images/ron/shirtless_front.jpeg"), url("../../images/ron/shirtless_front.jpeg");
 		background-size: 256px 256px, contain;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
+		background-position: top center;
 		background-repeat: repeat, no-repeat;
 	}
 
@@ -2895,17 +2895,17 @@
 
 	#one {
 		background: #000;
-		background: url("images/ron/shirtless_back.jpeg"), url("../../images/ron/shirtless_back.jpeg");
+		/*background: url("images/ron/shirtless_back.jpeg"), url("../../images/ron/shirtless_back.jpeg");*/
 		background-size: 256px 256px, contain;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
+		background-position: right;
 		background-repeat: repeat, no-repeat;
 	}
 
  /*Two */
 
 	#two {
-		background: url("images/ron/fully_clothed.jpeg"), url("../../images/ron/fully_clothed.jpeg");
+		/*background: url("images/ron/fully_clothed.jpeg"), url("../../images/ron/fully_clothed.jpeg");*/
 		background-size: 256px 256px, contain;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -3469,3 +3469,27 @@
 			}
 
 	}
+
+	.right-image{
+		float: right;
+		display: block;
+	}
+	.right-image img{
+		width: 100%;
+	}
+	.left-image{
+		float: left;
+		display: block;
+	}
+	.left-image img{
+		/*position: absolute;*/
+		/*width: 100%;*/
+	}
+	.instagram-photo{
+		width: 100%;
+		padding: 2px;
+	}
+
+	/*#two .content{
+		position: absolute;
+	}*/
