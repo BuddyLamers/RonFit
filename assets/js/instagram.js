@@ -2,7 +2,7 @@
   console.log('aaa');
   var photoCount = 8;
   var container = $('#galleryContainer');
-  var tag = 'ronfitnyc';
+  var tag = 'ronfitnycdotcom';
 
   var currentPage = "https://api.instagram.com/v1/tags/" + tag + "/media/recent?client_id=" + "ca710f787fa246c3b08792d5b91e970e";
 
